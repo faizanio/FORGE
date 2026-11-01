@@ -71,10 +71,13 @@ When you invoke `/forge`, the agent immediately switches into a disciplined work
 Paste this prompt directly into your Antigravity agent chat:
 
 ```text
-Install and configure the Forge skill globally from https://github.com/faizanio/Forge.git into ~/.gemini/config/skills/forge so I can use /forge across all my projects. Copy or clone the skill files into ~/.gemini/config/skills/forge, ensure all scripts are executable, and run doctor.py to confirm it's ready.
+Install the Forge skill globally for my Antigravity agent by running:
+npx --yes skills add faizanio/Forge --skill forge --agent antigravity --global --yes
 ```
 
-Your agent handles the entire installation, file placement, and verification automatically. Once finished, `/forge` is immediately available globally across your system.
+*(Or for this project workspace only, change `--global` to `--yes`)*
+
+Your agent will execute the installation non-interactively in seconds. Once finished, `/forge` is immediately available across your system without needing any additional steps.
 
 ---
 

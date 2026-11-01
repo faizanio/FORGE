@@ -7,10 +7,13 @@
 You can install Forge globally across your entire system without touching the terminal. Just copy this prompt and paste it to your Antigravity agent:
 
 ```text
-Install and configure the Forge skill globally from https://github.com/faizanio/Forge.git into ~/.gemini/config/skills/forge so I can use /forge across all my projects. Copy or clone the skill files into ~/.gemini/config/skills/forge, ensure all scripts are executable, and run doctor.py to confirm it's ready.
+Install the Forge skill globally for my Antigravity agent by running:
+npx --yes skills add faizanio/Forge --skill forge --agent antigravity --global --yes
 ```
 
-Your agent will automatically download the skill, stage it globally in `~/.gemini/config/skills/forge`, set execution permissions, and verify the installation. You are ready to use `/forge` right away.
+*(Or for this project workspace only, change `--global` to `--yes`)*
+
+Your agent will run the command non-interactively and install the skill in seconds. You are ready to use `/forge` right away.
 
 ---
 
