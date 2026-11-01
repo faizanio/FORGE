@@ -1,12 +1,26 @@
 # Install Forge
 
-Forge has two modes:
-- **Core** is the portable Agent Skill that works directly in Antigravity IDE and Antigravity CLI.
-- **Native** is an Antigravity plugin that packages Core with runtime hook-based workflow checks (PreToolUse, PostToolUse, and Stop gate).
+---
+
+## ⚡ Zero-Effort: Install via Agent Prompt
+
+You can install Forge globally across your entire system without touching the terminal. Just copy this prompt and paste it to your Antigravity agent:
+
+```text
+Install and configure the Forge skill globally from https://github.com/faizanio/Forge.git into ~/.gemini/config/skills/forge so I can use /forge across all my projects. Copy or clone the skill files into ~/.gemini/config/skills/forge, ensure all scripts are executable, and run doctor.py to confirm it's ready.
+```
+
+Your agent will automatically download the skill, stage it globally in `~/.gemini/config/skills/forge`, set execution permissions, and verify the installation. You are ready to use `/forge` right away.
 
 ---
 
-## 1. Core (Recommended)
+## Manual Installation Methods
+
+Forge has two manual installation modes:
+- **Core** is the portable Agent Skill that works directly in Antigravity IDE and Antigravity CLI.
+- **Native** is an Antigravity plugin that packages Core with runtime hook-based workflow checks (PreToolUse, PostToolUse, and Stop gate).
+
+### 1. Core (Recommended)
 
 From the project where you use Antigravity IDE:
 

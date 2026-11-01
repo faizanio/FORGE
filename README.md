@@ -66,11 +66,25 @@ When you invoke `/forge`, the agent immediately switches into a disciplined work
 
 ## Quick Installation
 
-You can install Forge in whichever way fits your setup:
+### ⚡ One-Prompt Setup (Easiest)
 
-### 1. Project Skill via `skills.sh` (Recommended)
+Paste this prompt directly into your Antigravity agent chat:
 
-From your project directory in Antigravity IDE, install the skill with one command:
+```text
+Install and configure the Forge skill globally from https://github.com/faizanio/Forge.git into ~/.gemini/config/skills/forge so I can use /forge across all my projects. Copy or clone the skill files into ~/.gemini/config/skills/forge, ensure all scripts are executable, and run doctor.py to confirm it's ready.
+```
+
+Your agent handles the entire installation, file placement, and verification automatically. Once finished, `/forge` is immediately available globally across your system.
+
+---
+
+### Alternative: Manual Installation Methods
+
+If you prefer terminal commands, pick the option that fits your workflow:
+
+#### 1. Skill via `skills.sh` (Recommended)
+
+From your project directory in Antigravity IDE:
 
 ```bash
 # Add to current workspace (.agents/skills/forge/)
