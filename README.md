@@ -1,6 +1,12 @@
-# Forge (`/forge`) — Antigravity Engineering Reliability Skill
+# Forge (`/forge`) — Engineering Reliability Skill for Antigravity
 
-**Forge** is an engineering reliability runtime and skill built specifically for Google Antigravity IDE. It instills rigorous discipline into agentic coding workflows: **read before write**, **plan proportional to blast radius**, **enforce scope**, **verify with executed proof**, and **never report completion without observed evidence**.
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Antigravity](https://img.shields.io/badge/Antigravity-Agent%20Skill-blueviolet.svg)](https://antigravity.google)
+[![TypeScript](https://img.shields.io/badge/TypeScript-Strict%20Mode-3178C6.svg?logo=typescript&logoColor=white)](references/typescript-guide.md)
+[![Python](https://img.shields.io/badge/Python-Mypy%20%7C%20Ruff%20%7C%20Pytest-3776AB.svg?logo=python&logoColor=white)](references/python-guide.md)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+
+**Forge** is an autonomous engineering reliability runtime designed for Google Antigravity. It enforces grounded code inspection before modification, strictly bounded write scopes, calibrated planning against blast radius, and deterministic proof validation before any task can be marked complete.
 
 ---
 
@@ -153,3 +159,13 @@ python3 skills/forge/scripts/detect_project.py .
 # Check Forge skill installation health
 python3 skills/forge/scripts/doctor.py
 ```
+
+---
+
+## Community & Security
+
+- **Contributing**: Read our [Contributing Guide](CONTRIBUTING.md) to report issues or propose additions.
+- **Code of Conduct**: We follow the [Contributor Covenant](CODE_OF_CONDUCT.md).
+- **Security**: Please review our [Security Policy](SECURITY.md) to report vulnerabilities responsibly.
+- **License**: Released under the [MIT License](LICENSE).
+
