@@ -47,20 +47,41 @@ Gemini Flash is lightning-fast and remarkably smart. What developers miss about 
 
 ---
 
-## How to Use: The `/forge` Slash Command
+## How to Use: Available Slash Commands
 
-Once Forge is installed, you can trigger it directly in any Antigravity conversation by typing `/forge`:
+Once installed, Forge registers two complementary skills in your Antigravity agent:
+
+### 1. `/forge` — Everyday Engineering (Default)
+
+Use for standard coding tasks: feature development, bug fixes, refactoring, and writing unit tests.
 
 ```text
 /forge Fix the token refresh timeout in src/auth/session.ts and make sure unit tests pass.
 ```
 
 When you invoke `/forge`, the agent immediately switches into a disciplined workflow:
-1. It reads the target files, dependencies, and test suites.
-2. It outlines a short plan and assesses potential risks.
-3. It limits edits strictly to the relevant files.
-4. It executes your real compiler, linter, and tests.
-5. It only reports completion once it has fresh proof that your checks passed.
+1. **Inspect:** Reads target files, callers, and existing tests before editing.
+2. **Plan:** Outlines a concise plan and anticipates edge cases.
+3. **Scope:** Confines edits strictly to declared files.
+4. **Test:** Executes your real compiler, linter, and test suite.
+5. **Prove:** Only reports completion when fresh command output confirms all checks passed.
+
+---
+
+### 2. `/forge-highstakes` — Safety Checkpoint for Dangerous Operations
+
+Use whenever a task is hard to reverse, destructive, or risks breaking production (database migrations, deleting files or modules, auth/security alterations, or production configuration updates).
+
+```text
+/forge-highstakes Migrate user authentication table schema and drop legacy password columns.
+```
+
+Unlike standard `/forge`, the high-stakes skill enforces **mandatory human confirmation**:
+1. **Risk Breakdown:** States what could break and why the action is difficult to roll back.
+2. **Dry Run First:** Runs a dry run, schema validation, or type check where available.
+3. **Mandatory Hard Stop:** Halts completely and asks for your explicit confirmation before modifying anything.
+4. **Zero Action Without Approval:** Will **never** edit files or execute destructive commands until you explicitly confirm.
+5. **Instant Abort:** Halts immediately if any execution step fails rather than guessing.
 
 ---
 
