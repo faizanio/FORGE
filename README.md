@@ -1,6 +1,6 @@
 # FORGE
 
-Turn Gemini Flash into a careful, thorough, and dependable coding partner in Google Antigravity.
+Brings the engineering discipline of Claude models to Gemini Flash in Antigravity: read files before touching code, plan changes around real risks, run actual tests, and prove every completion with concrete evidence.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Antigravity Skill](https://img.shields.io/badge/Antigravity-Agent%20Skill-blueviolet.svg)](https://antigravity.google)
