@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "forge": {
+      "source": "faizanio/Forge",
+      "sourceType": "github",
+      "skillPath": "skills/forge/SKILL.md",
+      "computedHash": "a71edb446e3de580cce33f7211fc17bb2e666c5a0d61a608bf2ce1f97589839f"
+    }
+  }
+}
