@@ -1,6 +1,6 @@
-# Install FORGE
+# Install Forge
 
-FORGE has two modes:
+Forge has two modes:
 - **Core** is the portable Agent Skill that works directly in Antigravity IDE and Antigravity CLI.
 - **Native** is an Antigravity plugin that packages Core with runtime hook-based workflow checks (PreToolUse, PostToolUse, and Stop gate).
 
@@ -11,20 +11,20 @@ FORGE has two modes:
 From the project where you use Antigravity IDE:
 
 ```bash
-npx skills add faizanio/FORGE --skill forge --agent antigravity --yes
+npx skills add faizanio/Forge --skill forge --agent antigravity --yes
 ```
 
 ### Options:
 - **Global Installation (All Workspaces)**:
   Add `--global` to make `/forge` available across every project on your machine:
   ```bash
-  npx skills add faizanio/FORGE --skill forge --agent antigravity --global --yes
+  npx skills add faizanio/Forge --skill forge --agent antigravity --global --yes
   ```
 
 - **Antigravity CLI (`agy`)**:
   Replace `antigravity` with `antigravity-cli`:
   ```bash
-  npx skills add faizanio/FORGE --skill forge --agent antigravity-cli --yes
+  npx skills add faizanio/Forge --skill forge --agent antigravity-cli --yes
   ```
 
 The command creates `.agents/skills/forge/` in your project (or in your global Antigravity config when `--global` is specified).
@@ -53,8 +53,8 @@ npx skills remove forge --project --agent antigravity --yes
 Native uses the local-plugin install workflow supported by Google Antigravity. Clone the repository, build the tracked distributable bundle, and install it:
 
 ```bash
-git clone --depth 1 https://github.com/faizanio/FORGE.git
-cd FORGE
+git clone --depth 1 https://github.com/faizanio/Forge.git
+cd Forge
 bash scripts/build-native-bundle.sh
 agy plugin install "$PWD/dist/forge-antigravity"
 ```

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Report portable FORGE Core and known Native plugin discovery state."""
+"""Report portable Forge Core and known Native plugin discovery state."""
 from __future__ import annotations
 
 import hashlib
@@ -34,7 +34,7 @@ def main() -> int:
     native_candidates = [
         home / ".gemini/config/plugins/forge-native",
         home / ".gemini/antigravity-cli/plugins/forge-native",
-        # Pre-bundle FORGE installations used this root plugin name.
+        # Pre-bundle Forge installations used this root plugin name.
         home / ".gemini/config/plugins/forge",
         home / ".gemini/antigravity-cli/plugins/forge",
     ]

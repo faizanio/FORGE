@@ -7,10 +7,10 @@ description: >
 license: MIT
 ---
 
-# FORGE High-Stakes Skill
+# Forge High-Stakes Skill
 
 For Tier-2 actions (hard-to-reverse, high-stakes), follow this skill
-**in addition to** the standard FORGE cognitive loop. This skill
+**in addition to** the standard Forge cognitive loop. This skill
 enforces explicit user checkpoints.
 
 ---

@@ -1,9 +1,9 @@
 ---
 name: forge-typescript
 description: >
-  FORGE extension for TypeScript projects. Adds TypeScript-specific recon,
+  Forge extension for TypeScript projects. Adds TypeScript-specific recon,
   strict mode patterns, Vitest/Jest integration, and common TS failure modes.
-  Load in addition to the base FORGE skill.
+  Load in addition to the base Forge skill.
 triggers:
   - "typescript"
   - "ts"
@@ -14,9 +14,9 @@ triggers:
   - "jest"
 ---
 
-# FORGE — TypeScript Extension
+# Forge — TypeScript Extension
 
-Extends the base FORGE skill with TypeScript-specific patterns.
+Extends the base Forge skill with TypeScript-specific patterns.
 Load `skills/forge/SKILL.md` first, then this file.
 
 ---

@@ -1,5 +1,5 @@
 {
   "$schema": "https://antigravity.google/schemas/v1/plugin.json",
   "name": "forge-native",
-  "description": "FORGE Core plus Antigravity runtime hooks for task contracts, evidence, and completion gating."
+  "description": "Forge Core plus Antigravity runtime hooks for task contracts, evidence, and completion gating."
 }

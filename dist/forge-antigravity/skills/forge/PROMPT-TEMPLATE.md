@@ -1,7 +1,7 @@
-# FORGE Prompt Template
+# Forge Prompt Template
 
 3-layer prompt assembly for optimal Gemini performance.
-Every FORGE task follows this structure.
+Every Forge task follows this structure.
 
 ---
 
@@ -27,7 +27,7 @@ Every FORGE task follows this structure.
 
 ## Layer 1: System Prompt (SKILL.md)
 
-Load once. Cacheable. Contains the full FORGE protocol.
+Load once. Cacheable. Contains the full Forge protocol.
 
 **Contents:**
 - 5 Non-negotiable rules

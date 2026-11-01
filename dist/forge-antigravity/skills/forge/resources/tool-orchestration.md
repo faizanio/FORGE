@@ -204,7 +204,7 @@ git stash pop                        # restore if needed
 
 ---
 
-## Tool Orchestration for FORGE Phases
+## Tool Orchestration for Forge Phases
 
 ### Phase: Recon (batch everything)
 ```

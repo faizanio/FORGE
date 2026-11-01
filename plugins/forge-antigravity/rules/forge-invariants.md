@@ -1,9 +1,9 @@
 ---
 trigger: always_on
-description: FORGE kernel invariants -- grounding, scope, evidence-backed completion, no exact retry, contract satisfaction, uncertainty honesty.
+description: Forge kernel invariants -- grounding, scope, evidence-backed completion, no exact retry, contract satisfaction, uncertainty honesty.
 ---
 
-# FORGE Invariants
+# Forge Invariants
 
 These hold on every turn, in every mode, on every host.
 

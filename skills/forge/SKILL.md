@@ -10,7 +10,7 @@ description: >
 license: MIT
 ---
 
-# FORGE -- Engineering Reliability Runtime
+# Forge -- Engineering Reliability Runtime
 
 **One rule above all:** Report what actually happened, not what you intended.
 When you claim something is done, fixed, or verified -- that claim rests on

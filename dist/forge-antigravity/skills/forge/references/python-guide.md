@@ -1,10 +1,10 @@
 ---
 name: forge-python
 description: >
-  FORGE extension for Python projects. Adds Python-specific recon,
+  Forge extension for Python projects. Adds Python-specific recon,
   type checking with mypy/pyright, ruff/flake8 lint, pytest patterns,
   and common Python failure modes.
-  Load in addition to the base FORGE skill.
+  Load in addition to the base Forge skill.
 triggers:
   - "python"
   - "py"
@@ -15,9 +15,9 @@ triggers:
   - "mypy"
 ---
 
-# FORGE — Python Extension
+# Forge — Python Extension
 
-Extends the base FORGE skill with Python-specific patterns.
+Extends the base Forge skill with Python-specific patterns.
 Load `skills/forge/SKILL.md` first, then this file.
 
 ---

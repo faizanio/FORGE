@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# FORGE Verification Script
+# Forge Verification Script
 # Runs the full verification chain for the current project
 # Output: VERDICT: PASS or VERDICT: FAIL
 #
@@ -71,7 +71,7 @@ fi
 
 echo ""
 echo "╔══════════════════════════════════════════════╗"
-echo "║         FORGE VERIFICATION ENGINE          ║"
+echo "║         Forge VERIFICATION ENGINE          ║"
 echo "╚══════════════════════════════════════════════╝"
 echo ""
 log_info "Language: $LANG"

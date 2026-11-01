@@ -80,7 +80,7 @@ Express.js API, TypeScript, connects to PostgreSQL
 [example as above]
 ```
 
-**Note:** FORGE uses markdown-first structure throughout. XML-style prompts
+**Note:** Forge uses markdown-first structure throughout. XML-style prompts
 are less effective on Gemini than markdown headings.
 
 ---
@@ -132,7 +132,7 @@ When Gemini has search access, use it for:
 ## 7. Parallel Tool Calls
 
 Gemini can execute independent tool calls in parallel in one response.
-This is the single biggest performance multiplier in FORGE.
+This is the single biggest performance multiplier in Forge.
 
 ```python
 # GOOD — parallel, one response
@@ -164,7 +164,7 @@ This is the single biggest performance multiplier in FORGE.
 
 ## 9. Gemini-Specific Prompt Patterns
 
-### The FORGE Invocation Pattern
+### The Forge Invocation Pattern
 
 When starting a complex task:
 
@@ -217,7 +217,7 @@ Don't be nice. Find real problems.
 
 ---
 
-## 10. Integration with FORGE Tiers
+## 10. Integration with Forge Tiers
 
 | Tier | Reasoning | Tools |
 |------|-----------|-------|

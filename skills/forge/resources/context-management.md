@@ -145,8 +145,8 @@ RIGHT: [grep SESSION_TIMEOUT src/] → confirm current state
 
 ### Cross-session continuity
 For multi-day tasks, use memory protocol:
-- Save task status to FORGE_TASK_STATUS.md
-- Save non-obvious findings to FORGE_MEMORY.md
+- Save task status to Forge_TASK_STATUS.md
+- Save non-obvious findings to Forge_MEMORY.md
 - Next session: read memory first, then recon to verify it's current
 
 ---

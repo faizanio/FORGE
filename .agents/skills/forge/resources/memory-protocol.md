@@ -38,7 +38,7 @@ Created at task start. Lost when session ends.
 
 ### Layer 2 — Project Memory (cross-session, persistent)
 
-Stored in `FORGE_MEMORY.md` at project root, or `.forge/memory/` directory.
+Stored in `Forge_MEMORY.md` at project root, or `.forge/memory/` directory.
 
 **Format:**
 
@@ -132,13 +132,13 @@ Used in src/webhooks/stripe.ts. Check here before any Stripe webhook changes.
 
 ---
 
-## Memory Index — FORGE_MEMORY.md
+## Memory Index — Forge_MEMORY.md
 
 The index file. One line per memory. Loaded into context each session.
 Never put full memory content here.
 
 ```markdown
-# FORGE Memory Index
+# Forge Memory Index
 
 ## User
 - [user-preferences](memory/user-preferences.md) — dev preferences, commit style, verify commands
@@ -184,7 +184,7 @@ Never put full memory content here.
 
 ## Recall Protocol
 
-At session start, if `FORGE_MEMORY.md` exists:
+At session start, if `Forge_MEMORY.md` exists:
 1. Read the index
 2. Load memories relevant to today's task
 3. Verify any memories that reference files (the file may have moved)
@@ -216,4 +216,4 @@ When continuing a multi-session task:
 - Tried editing config.ts for timeout. Wrong file. Actual: src/auth/session.ts:23
 ```
 
-Save this as `FORGE_TASK_STATUS.md` for multi-day tasks.
+Save this as `Forge_TASK_STATUS.md` for multi-day tasks.

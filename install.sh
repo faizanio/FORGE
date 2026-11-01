@@ -50,7 +50,7 @@ elif [[ -n "$MODE" && "$MODE" != "--help" && "$MODE" != "-h" ]]; then
   install_workspace "$MODE"
 else
   echo "============================================="
-  echo "       FORGE SKILL INSTALLER FOR ANTIGRAVITY "
+  echo "       Forge SKILL INSTALLER FOR ANTIGRAVITY "
   echo "============================================="
   echo "Where would you like to install the /forge skill?"
   echo ""

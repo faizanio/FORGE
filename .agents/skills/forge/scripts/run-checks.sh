@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# run-checks.sh — Quick verification script for FORGE
+# run-checks.sh — Quick verification script for Forge
 # Run this as your "evidence" step after implementing changes.
 #
 # Usage: ./scripts/run-checks.sh [project-root]
@@ -12,7 +12,7 @@ set -euo pipefail
 PROJECT_ROOT="${1:-.}"
 cd "$PROJECT_ROOT"
 
-echo "=== FORGE Verification Checks ==="
+echo "=== Forge Verification Checks ==="
 echo "Project root: $(pwd)"
 echo ""
 

@@ -26,13 +26,13 @@ Portable behavioral policy delivered directly as an Agent Skill via `skills.sh`.
 
 ```bash
 # Workspace install (creates .agents/skills/forge/)
-npx skills add faizanio/FORGE --skill forge --agent antigravity --yes
+npx skills add faizanio/Forge --skill forge --agent antigravity --yes
 
 # Global install (available across all projects in Antigravity)
-npx skills add faizanio/FORGE --skill forge --agent antigravity --global --yes
+npx skills add faizanio/Forge --skill forge --agent antigravity --global --yes
 
 # For Antigravity CLI (agy)
-npx skills add faizanio/FORGE --skill forge --agent antigravity-cli --yes
+npx skills add faizanio/Forge --skill forge --agent antigravity-cli --yes
 ```
 
 ### 2. Native (Antigravity Runtime Hooks)
@@ -40,8 +40,8 @@ npx skills add faizanio/FORGE --skill forge --agent antigravity-cli --yes
 Core plus an Antigravity plugin (`forge-native`) with `PreToolUse`, `PostToolUse`, `PostInvocation`, and `Stop` hooks. For teams that want tool calls checked and completion gated mechanically by the Antigravity runtime:
 
 ```bash
-git clone --depth 1 https://github.com/faizanio/FORGE.git
-cd FORGE
+git clone --depth 1 https://github.com/faizanio/Forge.git
+cd Forge
 bash scripts/build-native-bundle.sh
 agy plugin install "$PWD/dist/forge-antigravity"
 agy plugin validate "$PWD/dist/forge-antigravity"
